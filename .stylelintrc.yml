@@ -150,3 +150,6 @@ rules:
     - unspecified: bottomAlphabetical
       emptyLineBeforeUnspecified: threshold
       emptyLineMinimumPropertyThreshold: 5
+
+ignoreFiles:
+  - app/miniprogram_npm/**
