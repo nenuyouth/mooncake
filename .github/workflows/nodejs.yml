@@ -1,0 +1,18 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: yarn install
+        run: yarn install
+
+      - name: linter test
+        run: yarn run lint:check
+
+      - name: ts test
+        run: yarn run ts:compile
