@@ -1,0 +1,36 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/order/order",
+    "pages/select/select"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f39c12",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "师大月饼",
+    "backgroundColor": "#efeef4",
+    "backgroundTextStyle": "dark",
+    "backgroundColorTop": "#f39c12",
+    "backgroundColorBottom": "#efeef4",
+    "pageOrientation": "portrait"
+  },
+  "networkTimeout": {
+    "request": 5000,
+    "connectSocket": 8000,
+    "uploadFile": 8000,
+    "downloadFile": 25000
+  },
+  "debug": false,
+  "resizable": true,
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-row": "@vant/weapp/row/index"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "singlePage": { "navigationBarFit": "float" }
+}

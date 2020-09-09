@@ -1,0 +1,9 @@
+{
+  "out": "./doc",
+  "name": "mooncake",
+  "includes": "./app",
+  "includeDeclarations": false,
+  "excludeExternals": true,
+  "excludeNotExported": false,
+  "hideGenerator": true
+}

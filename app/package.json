@@ -1,0 +1,10 @@
+{
+  "name": "mooncake",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Mr.Hope",
+  "dependencies": {
+    "@vant/weapp": "1.5.0",
+    "wxpage": "1.1.10"
+  }
+}

@@ -1,0 +1,28 @@
+<view class="main-content-wrapper">
+  <image class="banner" src="/images/main-banner.png" mode="widthFix" />
+
+  <!-- 此处最好也使用艺术字图片 -->
+  <view class="title">
+    <view>中秋月满</view>
+    <view>师大饼馨香</view>
+  </view>
+  <view class="text">快来预定你的中秋月饼!</view>
+  <view class="desc">
+    <text decode
+      >时为中秋佳节，北苑食堂向全校师生开放月饼预定。\n月饼口味...</text
+    >
+  </view>
+
+  <van-row>
+    <van-col offset="6" span="12"
+      ><van-button
+        color="#f39c12"
+        size="large"
+        round
+        block
+        catch:click="navigate"
+        >{{isOrderd? '我的订单': '立即预定'}}</van-button
+      >
+    </van-col>
+  </van-row>
+</view>
